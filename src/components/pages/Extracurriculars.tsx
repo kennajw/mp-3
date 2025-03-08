@@ -8,7 +8,7 @@ import Footer from '../interfaces/Footer';
 export default function Extracurriculars() {
     useEffect(() => {
         document.title = "Extracurriculars | Online Resume"
-    });
+    }, []);
 
     return (
         <>

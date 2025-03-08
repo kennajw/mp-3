@@ -1,5 +1,5 @@
-import { Link } from 'react-router';
 import { styled } from 'styled-components';
+import { StyledLink } from './Details';
 
 const StyledFooter = styled.footer`
     text-align: center;
@@ -9,7 +9,7 @@ const StyledFooter = styled.footer`
 export default function Footer() {
     return (
         <StyledFooter>
-            <p>All Rights Reserved by Kenna Wylie <Link to="/credits">Credits</Link> &#169;</p>
+            <p>All Rights Reserved by Kenna Wylie <StyledLink to="/credits">Credits</StyledLink> &#169;</p>
         </StyledFooter>
     );
 }

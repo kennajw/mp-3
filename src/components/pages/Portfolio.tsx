@@ -16,7 +16,7 @@ const StyledPortfolio = styled.div`
 export default function Portfolio() {
     useEffect(() => {
         document.title = "Portfolio | Online Resume"
-    });
+    }, []);
 
     return (
         <>
@@ -29,17 +29,17 @@ export default function Portfolio() {
 
                     <StyledPortfolio>
                         <StyledCard>
-                            <StyledImg src="../../../public/study.jpeg" alt="Study of Nydia, the Blind Girl of Pompeii"/>
+                            <StyledImg src="../../../study.jpeg" alt="Study of Nydia, the Blind Girl of Pompeii"/>
                             <StyledMainP>A study of Randolph Rogers' Nydia, the Blind Flower Girl of Pompeii (1856).</StyledMainP>
                         </StyledCard>
 
                         <StyledCard>
-                            <StyledImg src="../../../public/cannon-beach.jpg" alt="Cannon Beach, OR"/>
+                            <StyledImg src="../../../cannon-beach.jpg" alt="Cannon Beach, OR"/>
                             <StyledMainP>Cannon Beach, OR.</StyledMainP>
                         </StyledCard>
 
                         <StyledCard>
-                            <StyledImg src="../../../public/la-jolla.jpg" alt="La Jolla, CA"/>
+                            <StyledImg src="../../../la-jolla.jpg" alt="La Jolla, CA"/>
                             <StyledMainP>La Jolla, CA</StyledMainP>
                         </StyledCard>
                     </StyledPortfolio>

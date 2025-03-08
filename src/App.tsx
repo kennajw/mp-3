@@ -1,6 +1,5 @@
 import { createBrowserRouter, Routes, RouterProvider, Route } from "react-router-dom";
-// import PageContainer from "./components/interfaces/PageContainer";
-// import { styled } from 'styled-components';
+import PageContainer from "./components/interfaces/PageContainer";
 import Home from "./components/pages/Home";
 import Education from "./components/pages/Education";
 import Employment from "./components/pages/Employment";
@@ -29,6 +28,8 @@ const router = createBrowserRouter(
 
 export default function App() {
   return (
-    <RouterProvider router={router} />
+      <PageContainer>
+        <RouterProvider router={router} />
+      </PageContainer>
   );
 }

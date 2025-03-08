@@ -8,7 +8,7 @@ import Footer from '../interfaces/Footer';
 export default function Employment() {
     useEffect(() => {
         document.title = "Employment | Online Resume"
-    });
+    }, []);
 
     return (
         <>

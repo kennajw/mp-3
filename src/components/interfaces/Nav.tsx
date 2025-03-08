@@ -3,6 +3,7 @@ import { styled } from 'styled-components';
 
 const StyledLink = styled(Link)`
     text-decoration: none;
+    color: #EEE5E9;
 `;
 
 const StyledNav = styled.nav`
@@ -13,7 +14,7 @@ const StyledNav = styled.nav`
         width: 100%;
         background: rgba(179, 103, 155, 0.5);
     }
-`
+`;
 
 const StyledUl = styled.ul`
     display: flex;
@@ -32,12 +33,12 @@ const StyledUl = styled.ul`
         list-style: none;
         padding-left: 0;
     }
-`
+`;
 
 const StyledLi = styled.li`
     width: 90%;
     margin: 5vh auto;
-    padding: 1.5vh;
+    padding: .8vh;
     border-radius: 5px;
     background: rgba(179, 103, 155, 0.4);
 
@@ -47,7 +48,7 @@ const StyledLi = styled.li`
         padding: 1% .5%;
         margin: 1% .5%;
     }
-`
+`;
 
 export default function Nav() {
     return (

@@ -8,7 +8,7 @@ import Footer from '../interfaces/Footer';
 export default function Home() {
     useEffect(() => {
         document.title = "Homepage | Online Resume"
-    });
+    }, []);
 
     return (
         <>
@@ -19,7 +19,7 @@ export default function Home() {
                     <StyledTitle>Home</StyledTitle>
 
                     <StyledImgContainer>
-                        <StyledImg src="../../../public/me.jpeg" alt="Kenna Wylie"/>
+                        <StyledImg src="../../../me.jpeg" alt="Kenna Wylie"/>
                     </StyledImgContainer>
 
                     <StyledCard>

@@ -1,4 +1,5 @@
 import { styled } from 'styled-components';
+import { Link } from 'react-router';
 
 const StyledTitle = styled.h2`
     margin: 2vw 0;
@@ -35,4 +36,10 @@ const StyledImgContainer = styled.div`
     margin: 2vh;
 `;
 
-export {StyledTitle, StyledCard, StyledImg, StyledImgContainer};
+const StyledLink = styled(Link)`
+    text-decoration: none;
+    color: #EEE5E9;
+    font-weight: bold;
+`;
+
+export {StyledTitle, StyledCard, StyledImg, StyledImgContainer, StyledLink};
